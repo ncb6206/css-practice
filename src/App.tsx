@@ -3,57 +3,45 @@ import "./scss/styles.scss";
 function App() {
   return (
     <body>
-      <header>
+      <h1>Rodic Davidson</h1>
+      <main>
         <nav>
           <ul>
-            <li>Products</li>
-            <li>Stockists</li>
-            <li>About us</li>
+            <li>Projects</li>
+            <li>Practice</li>
+            <li>News</li>
+            <li>Exhibition</li>
+            <li>Contact</li>
           </ul>
         </nav>
-        <h1 className="logo">
-          T<div>o</div>
-          lv
-        </h1>
-        <span>🔍</span>
-      </header>
-      <main>
-        <div className="hero">
-          <div className="hero__img"></div>
-          <div className="hero__text">
-            <h2>Lift the blind to let in the light. A moment of calm before the day begins.</h2>
-            <span>
-              Featuring <a href="#">Cherry sofa</a> and
-              <a href="#">Kile coffee table</a>
-            </span>
-          </div>
+        <div className="photo">
+          <img src="https://source.unsplash.com/random/1" />
+          <h4>Suffolk Farmstead</h4>
         </div>
-        <div className="banner">
-          <h3 className="banner__title">Time for Living</h3>
-          <p>
-            Take time for life’s little moments. Browsing the news as you eat breakfast. Setting the
-            table for hungry guests. Sinking in to your favourite armchair. At Tolv, your daily
-            rituals are at the heart of our design. We make furniture to give you your best day,
-            every day.
-          </p>
-          <span>
-            Find out more <a href="#">About us</a>
-          </span>
+        <div className="photo">
+          <img src="https://source.unsplash.com/random/2" />
+          <h4>Suffolk Farmstead</h4>
         </div>
-        <section className="gallery">
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-          <div className="gallery__item"></div>
-        </section>
+        <div className="photo">
+          <img src="https://source.unsplash.com/random/3" />
+          <h4>Suffolk Farmstead</h4>
+        </div>
+        <div className="photo">
+          <img src="https://source.unsplash.com/random/4" />
+          <h4>Suffolk Farmstead</h4>
+        </div>
+        <div className="photo">
+          <img src="https://source.unsplash.com/random/5" />
+          <h4>Suffolk Farmstead</h4>
+        </div>
+        <div className="photo">
+          <img src="https://source.unsplash.com/random/6" />
+          <h4>Suffolk Farmstead</h4>
+        </div>
+        <div className="photo">
+          <img src="https://source.unsplash.com/random/7" />
+          <h4>Suffolk Farmstead</h4>
+        </div>
       </main>
     </body>
   );
