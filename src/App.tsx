@@ -3,31 +3,112 @@ import "./scss/styles.scss";
 function App() {
   return (
     <body>
-      <div className="main">
-        <span></span>
-        <span></span>
-        <span className="menu">Menu</span>
-        <div className="number__row">
-          <div className="number">#10</div>
-          <div className="number">#9</div>
-          <div className="number">#8</div>
-          <div className="number">#7</div>
-          <div className="number">#6</div>
-        </div>
-        <div className="center-image"></div>
-        <div className="number__row">
-          <div className="number">#5</div>
-          <div className="number">#4</div>
-          <div className="number">#3</div>
-          <div className="number">#2</div>
-          <div className="number">#1</div>
-        </div>
-        <span></span>
-        <div className="scrolling__text">
-          <span>This is a very long text that should scroll using CSS3 Animations and not JS</span>
-        </div>
-        <span></span>
-      </div>
+      <header>
+        <nav>
+          <ul>
+            <li>Zoo</li>
+            <li>Contact</li>
+            <li>Team</li>
+            <li>Clients</li>
+          </ul>
+          <ul>
+            <li>Projects</li>
+            <li>Tous</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <article>
+          <img src="https://source.unsplash.com/random/450x450" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x451" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x452" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x453" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x454" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x455" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x456" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x457" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x458" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x459" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x460" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x461" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x462" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x463" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+        <article>
+          <img src="https://source.unsplash.com/random/450x464" />
+          <div>
+            <h3>Moco Montpellier Contemporain</h3>
+          </div>
+        </article>
+      </main>
     </body>
   );
 }
